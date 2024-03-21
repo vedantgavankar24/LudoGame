@@ -74,7 +74,7 @@ public class LudoClass {
     int noOfSteps[] = new int[16];
     Random random1 = new Random();
     JLabel cplabel = new JLabel("");
-    int[] w = {3, 3, 1, 3};
+    int[] w = {1, 1, 1, 1};
     int b = 0;
     int currentplayer = 0;
 
@@ -116,7 +116,7 @@ public class LudoClass {
     ImageIcon greent = new ImageIcon();
 
     //Image gt2 = greentoken.getImage().getScaledInstance(16, 16, Image.SCALE_SMOOTH);
-    ImageIcon greentby2 = new ImageIcon();
+    ImageIcon greentby2 =new ImageIcon();
 boolean allowdicetime = true;
     ImageIcon diceImages[] = new ImageIcon[6];
 
